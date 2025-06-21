@@ -12,7 +12,7 @@
       "supportsTablet": true,
       "bundleIdentifier": "com.yourcompany.myaifitnesstrainer",
       "infoPlist": {
-        "NSCameraUsageDescription": "This app needs camera access to track your exercise movements."
+        "NSCameraUsageDescription": "$(PRODUCT_NAME) needs access to your Camera."
       }
     },
     "android": {
@@ -31,10 +31,12 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "react-native-vision-camera",
-      {
-        "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera."
-      },
+      [
+        "react-native-vision-camera",
+        {
+          "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera."
+        }
+      ],
       "expo-router",
       [
         "expo-splash-screen",
@@ -48,6 +50,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c975679b-af99-446f-8e59-cc1aa3f7be2c"
+      }
     }
   }
 }
