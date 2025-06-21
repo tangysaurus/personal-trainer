@@ -15,12 +15,9 @@
     "@react-navigation/bottom-tabs": "^7.3.10",
     "@react-navigation/elements": "^2.3.8",
     "@react-navigation/native": "^7.1.6",
-<<<<<<< Updated upstream
     "@thinksys/react-native-mediapipe": "^0.0.13",
-=======
     "@vapi-ai/react-native": "^0.2.4",
     "@vapi-ai/server-sdk": "^0.9.1",
->>>>>>> Stashed changes
     "expo": "~53.0.12",
     "expo-av": "^15.1.6",
     "expo-blur": "~14.1.5",
