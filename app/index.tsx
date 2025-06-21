@@ -83,6 +83,16 @@ function App(): JSX.Element {
         // For example, to hide specific body parts:
         // face={false} leftArm={false} rightArm={false}
         // torso={true} leftLeg={true} rightLeg={true}
+        face={true}
+        leftArm={true}
+        rightArm={true}
+        leftWrist={true}
+        rightWrist={true}
+        torso={true}
+        leftLeg={true}
+        rightLeg={true}
+        leftAnkle={true}
+        rightAnkle={true}
         style={StyleSheet.absoluteFillObject} // Ensures it overlays the camera
       />
 
