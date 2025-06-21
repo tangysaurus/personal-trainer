@@ -4,7 +4,7 @@ import { RNMediapipe } from '@thinksys/react-native-mediapipe';
 import { useEffect, useState } from 'react';
 import { Dimensions, Platform, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Camera, useCameraDevice, useCameraPermission } from 'react-native-vision-camera';
-import { analyzeSquat, resetCounter } from './utils/exerciseAnalyzer'; // Import your analyzer
+import { analyzeSquat, resetCounter } from '../utils/exerciseAnalyzer'; // Import your analyzer
 
 const { width, height } = Dimensions.get('window');
 
@@ -83,7 +83,7 @@ function App(): JSX.Element {
         // For example, to hide specific body parts:
         // face={false} leftArm={false} rightArm={false}
         // torso={true} leftLeg={true} rightLeg={true}
-        style={StyleSheet.absoluteFill} // Ensures it overlays the camera
+        style={StyleSheet.absoluteFillObject} // Ensures it overlays the camera
       />
 
       {/* UI Overlay for Reps and Feedback */}
