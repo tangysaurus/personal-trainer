@@ -16,10 +16,6 @@
       }
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#ffffff"
-      },
       "package": "com.yourcompany.myaifitnesstrainer",
       "permissions": [
         "android.permission.CAMERA"
