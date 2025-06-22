@@ -25,10 +25,6 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   android: {
-    adaptiveIcon: {
-      foregroundImage: './assets/icon.png', // Or your actual adaptive-icon.png
-      backgroundColor: '#ffffff'
-    },
     package: 'com.yourcompany.myaifitnesstrainer', // IMPORTANT: CUSTOMIZE THIS! e.g., "com.tangysaurus.aifitnesstrainer"
     permissions: [
       "android.permission.CAMERA",
