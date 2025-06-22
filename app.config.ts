@@ -14,6 +14,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     resizeMode: 'contain',
     backgroundColor: '#ffffff',
   },
+
   assetBundlePatterns: ['**/*'],
   ios: {
     supportsTablet: true,
